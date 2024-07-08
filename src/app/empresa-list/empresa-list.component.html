@@ -1,0 +1,6 @@
+<h2>Lista de Empresas</h2>
+<ul>
+  <li *ngFor="let empresa of empresas" (click)="navigateToDetail(empresa)">
+    {{ empresa }}
+  </li>
+</ul>
