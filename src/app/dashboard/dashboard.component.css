@@ -1,0 +1,26 @@
+.dashboard {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-top: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard h3 {
+    margin-top: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  

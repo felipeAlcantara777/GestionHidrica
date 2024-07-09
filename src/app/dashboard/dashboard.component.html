@@ -1,0 +1,26 @@
+<div class="dashboard">
+    <h3>Dashboard</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Pulsos</th>
+          <th>Tiempo (s)</th>
+          <th>Volumen (l)</th>
+          <th>Q</th>
+          <th>Humedad</th>
+          <th>Temperatura</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let index of pulsos">
+          <td>{{ pulsos[index - 1] }}</td>
+          <td>{{ tiempo[index - 1] }}</td>
+          <td>{{ volumen[index - 1] }}</td>
+          <td>{{ q[index - 1] }}</td>
+          <td>{{ humedad[index - 1] }}</td>
+          <td>{{ temperatura[index - 1] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
